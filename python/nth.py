@@ -1,3 +1,7 @@
-a = ['a', 23, 45, 'u']
-b = ['b', 23, 'u', 235]
-print([c for c in a if c in b])
+import time
+
+start = time.time()
+l = []
+for i in range(100000):
+    l.append(i*2)
+print(time.time()-start)
