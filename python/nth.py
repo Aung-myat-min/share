@@ -1,4 +1,4 @@
-import pickle
+def foo(**keyargs):
+    return keyargs
 
-file = open('JP_list.pickle', 'br')
-print(pickle.load(file))
+print(foo(a = 2, b = 3, c = 4))
