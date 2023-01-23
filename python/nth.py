@@ -1,4 +1,5 @@
-def foo(**keyargs):
-    return keyargs
-
-print(foo(a = 2, b = 3, c = 4))
+f = input("Enter the numbers:").split(",")
+i = 0
+for j in f:
+    i += int(j)
+print(i)
