@@ -12,7 +12,6 @@ def createServer():
         serversocket.listen(5)
         while(1):
             (clientsocket, address) = serversocket.accept()
-
             rd = clientsocket.recv(5000).decode()
             pieces = rd.split("\n")
             if ( len(pieces) > 0 ) : print(pieces[0])
