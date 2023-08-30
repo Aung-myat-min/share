@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="enabledOnSave" value="true" />
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="C:\Users\koaun\anaconda3\Scripts\black.exe" />
+    <option name="sdkUUID" value="4cef6d28-6362-4b8c-a330-365aef2c2ee7" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Youtube_downloader" project-jdk-type="Python SDK" />
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
+</project>
